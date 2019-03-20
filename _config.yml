@@ -9,3 +9,6 @@ pub_year: 2018
 
 # Build settings
 markdown: kramdown
+
+# Permalink settings
+permalink: /:title:output_ext
