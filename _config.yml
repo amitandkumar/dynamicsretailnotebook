@@ -12,3 +12,7 @@ markdown: kramdown
 
 # Permalink settings
 permalink: /:title:output_ext
+
+# sitemap settings
+plugins:
+  - jekyll-sitemap
