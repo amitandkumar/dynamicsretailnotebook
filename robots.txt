@@ -1,7 +1,3 @@
 User-agent: *
 Disallow: /
-Disallow: /css/
-Disallow: /_scss/
-Disallow: /_layouts/
-Disallow: /_includes/
 Allow: /_post/
