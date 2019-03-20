@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /
 Allow: /_post/
+Disallow: /
 Sitemap: https://dynamicsretailnotes.com/sitemap.xml
