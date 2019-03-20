@@ -1,4 +1,8 @@
 User-agent: *
-Allow: /_post/
+Allow: /_posts/
+Allow: /_includes/
+Allow: /_layouts/
+Allow: /_sass/
+Allow: /css/
 Disallow: /
 Sitemap: https://dynamicsretailnotes.com/sitemap.xml
