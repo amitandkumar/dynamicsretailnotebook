@@ -11,8 +11,9 @@ pub_year: 2018
 markdown: kramdown
 
 # Permalink settings
-permalink: /:title:output_ext
+permalink: :title
 
 # sitemap settings
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
