@@ -1,4 +1,3 @@
-
 ---
 title: MVC is Bullshit
 ---
