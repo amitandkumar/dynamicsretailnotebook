@@ -1,14 +1,40 @@
-<footer class="site-footer">
-  <div class="wrapper">
-    <div class="footer-col-wrapper" >
-    <div class="footer-nav">
-        {% for lesson in site.pages %}
-          {% if lesson.nav == true %}
-          <a class="page-link{% if page.url == lesson.url %} active{% endif %}" href="{{ lesson.url | absolute_url }}">{{ lesson.title | escape }}</a>
-          {% endif %}
-        {% endfor %}
+
+<div class="py-5 border-top bg-white">
+  <div class="container">
+
+    <p class="h5 mb-3">{{ site.title | escape }}</p>
+
+    <div class="row">
+
+      <div class="col-sm">
+        <ul class="list-unstyled">
+          <li>
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+          </li>
+          {%- if site.email -%}
+            <li>
+              <a href="mailto:{{ site.email }}">
+                {{ site.email }}
+              </a>
+            </li>
+          {%- endif -%}
+        </ul>
+      </div>
+
+
+      <div class="col-sm text-right">
+        <p>{{- site.description | escape -}}</p>
+
+        <p>
+          <a href="https://nicolas-van.github.io/bootstrap-4-github-pages/">Powered by Bootstrap 4 Github Pages</a>
+        </p>
+      </div>
+
     </div>
-    </div>
-      <h2 class="footer-heading"><a href="{{ '/' | absolute_url }}">{{ site.title | escape }}</a> - <a href="https://creativecommons.org/licenses/by-sa/4.0/">cc-by-sa</a> <a href="https://github.com/{{ site.github_username }}">{{ site.author }}</a> - {{ site.pub_year }}.</h2> 
+
   </div>
-</footer>
+</div>
