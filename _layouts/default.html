@@ -1,20 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
-
   <body>
-    
+    <div class="body-background"
+      style="background-image: url({{ "/assets/img/background.jpg" | relative_url }});">
+    </div>    
     {% include header.html %}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
+    <div class="py-5">
+      <div class="container page-content">
+          {{ content }}
       </div>
-    </main>
-
+    </div>
     {% include footer.html %}
-
   </body>
-
 </html>
