@@ -10,19 +10,23 @@ author: Amit Kumar
 pub_year: 2018
 
 # webmaster settings
-webmaster_verifications:
-  google: hYCXt37cDN7Fw-GJ1sHiXuqM198SY8JBk83vt1f1zGo
-  bing: 7B2D64A1E9E1E53A1E70AA094DA129AA
+google_webmaster: hYCXt37cDN7Fw-GJ1sHiXuqM198SY8JBk83vt1f1zGo
+bing_webmaster: 7B2D64A1E9E1E53A1E70AA094DA129AA
+
+# analytics settings
+google_analytics: 'UA-132742277-1'
 
 # Build settings
 markdown: kramdown
+permalink: /:title/
+paginate: 6
+paginate_path: /page:num/
+destination: ./_site
 
-# Permalink settings
-permalink: :title
+sass:
+    style: compressed
 
-# sitemap settings
+# plugin settings
 plugins:
-  - jekyll-sitemap
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
