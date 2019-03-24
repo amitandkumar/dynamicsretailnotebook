@@ -20,9 +20,6 @@ google_analytics: 'UA-132742277-1'
 markdown: kramdown
 permalink: /:title/
 
-sass:
-    style: compressed
-
 # plugin settings
 plugins:
   - jekyll-seo-tag
