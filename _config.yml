@@ -15,10 +15,13 @@ webmaster_verifications:
   bing: 7B2D64A1E9E1E53A1E70AA094DA129AA
 
 # Build settings
+include: ['_pages']
 markdown: kramdown
-
-# Permalink settings
 permalink: :title
+
+sass:
+    style: compressed
+
 
 # sitemap settings
 plugins:
