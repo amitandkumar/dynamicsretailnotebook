@@ -22,6 +22,5 @@ permalink: :title
 
 # sitemap settings
 plugins:
-  - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-paginate
