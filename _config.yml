@@ -18,7 +18,7 @@ google_analytics: 'UA-132742277-1'
 
 # Build settings
 markdown: kramdown
-permalink: /:title/
+permalink: :title
 
 # plugin settings
 plugins:
