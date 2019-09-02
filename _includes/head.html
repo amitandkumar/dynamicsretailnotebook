@@ -7,17 +7,5 @@
 <meta name="description" content="{% if page.desc %}{{ page.desc | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
 <meta name="keywords" content="{{ page.keywords | default: site.keywords }}">
 <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | absolute_url }}">
-  
-<script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "TechArticle",
-    "name": "{%if page.title %}{{ page.title }} | {% else %}{{ site.title }}{% endif %}",
-    "headline": "{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
-    {%if page.image %}"image": "{{site.url}}/thumbs/{{ page.image }}",{% else %}"image": "{{site.url}}/img/{{ site.logo }}",{% endif %}
-    "description": "{% if page.desc %}{{ page.desc}}{% else %}{{ site.description}}{% endif %}",
-    "logo": "",
-    "url": "{{ site.url }}{{ page.url }}"
-  }
-</script>
+{%- seo -%} 
 </head>
