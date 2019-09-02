@@ -22,3 +22,14 @@ permalink: :title
 # SASS settings
 sass:
     style: compressed
+    
+# html compression
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
