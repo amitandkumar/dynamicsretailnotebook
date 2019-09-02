@@ -2,5 +2,7 @@
 <!-- Meta -->
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>{%if page.title %}{{ page.title }} - Blog {% else %}{{ site.title }}{% endif %}</title>
+<meta name="description" content="{% if page.desc %}{{ page.desc | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
 </head>
