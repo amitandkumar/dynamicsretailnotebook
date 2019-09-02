@@ -22,10 +22,3 @@ permalink: :title
 # SASS settings
 sass:
     style: compressed
-
-# sitemap settings
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-sitemap
