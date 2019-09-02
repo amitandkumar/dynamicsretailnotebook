@@ -20,9 +20,9 @@ include: ['_pages']
 markdown: kramdown
 permalink: :title
 
+# SASS settings
 sass:
     style: compressed
-
 
 # sitemap settings
 plugins:
