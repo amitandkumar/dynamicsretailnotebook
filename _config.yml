@@ -37,3 +37,4 @@ compress_html:
 # plugins
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
