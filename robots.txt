@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: {{ site.title }}/sitemap.xml
+Sitemap: https://dynamicsretailnotes.com/sitemap.xml
