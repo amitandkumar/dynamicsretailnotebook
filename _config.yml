@@ -9,6 +9,9 @@ enforce_ssl: dynamicsretailnotes.com
 author: Amit Kumar
 pub_year: 2019
 
+# Google-analytics ID
+google_analytics: 
+
 # webmaster settings
 webmaster_verifications:
   google: hYCXt37cDN7Fw-GJ1sHiXuqM198SY8JBk83vt1f1zGo
